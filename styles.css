@@ -1,0 +1,111 @@
+/****************** TAGS *******************/
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: powderblue;
+}
+
+body {
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer {
+  background-color: #edc988;
+  color: #373a40;
+  display: inline-flex;
+  height: 70px;
+}
+
+header {
+  background-color: #f6f4e6;
+  color: grey;
+  display: inline-flex;
+  height: 150px;
+  width: 800px;
+}
+
+h1 {
+  color: #a6a6a4;
+}
+
+
+
+h3 {
+  color: #edc988;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+span {
+  margin-left: 0;
+
+}
+
+
+/****************** CLASSES  *******************/
+.about-us {
+  margin: 20px;
+}
+
+.circular-img {
+  border-radius: 50%;
+}
+
+.contact {
+  position: relative;
+  padding-top: 100px;
+}
+
+.responsive {
+  background-color: lightgrey;
+  opacity: 0.6;
+  transition: 0.3s;
+  width: 30%;
+  height: auto;
+}
+
+.responsive:hover {
+  opacity: 1;
+}
+
+.index-text {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.aboutus {
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.services-text {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.dotted {
+    border-style: dotted none none;
+    border-color: lightgrey;
+    border-width: 5px;
+    width: 40px;
+  }
+
+  .form {
+    height: 100px;
+    position: relative;
+    padding-bottom: 150px;
+  }
+
+/***** Un intento fallado de posicionar de mejor manera el Footer. Me hubiese gustado alinear los iconos a la derecha, el © a la izquierda y centrarlo todo bien, tanto dentro del footer como el mismo en la pagina. ***/
+
+  .footer-left {
+    position: relative;
+    padding-bottom: 5px;
+  }
